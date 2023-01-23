@@ -1,0 +1,17 @@
+{
+  "name": "home_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amtrak": "^2.8.9",
+    "express": "^4.18.2",
+    "node-datetime": "^2.1.2",
+    "timezone": "^1.0.23"
+  }
+}
