@@ -98,7 +98,8 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  update_status(config["train_number"])
-  setInterval(function() {update_status(["train_number"]);}, 10*60*1000)
+  tn = config["train_number"]
+  update_status(tn)
+  setInterval(function() {update_status(tn);}, 10*60*1000)
   console.log(`Example app listening on port ${port}`)
 })
